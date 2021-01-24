@@ -1,0 +1,40 @@
+table{
+    border-collapse: collapse;
+    border: 3px solid #000;
+}
+td{
+	border: 2px solid #000;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 150%;
+}
+
+ul{
+	display: flex;
+	list-style: none;
+	padding-left:0px;
+}
+li{
+	margin-left: 15px;
+}
+button{
+	width: 120px;
+	height: 50px;
+	font-size: 130%;
+}
+
+/* ルーレットが回っている時の色*/
+.highlight{
+    background-color: lightblue;
+}
+
+/* 過去に停止させたパネルの色*/
+.stopped{
+    background-color: rgb(240, 119, 119);
+    color: blue;
+}
+/* ルーレットを停止させた時の色*/
+.highlight.stopped{
+    background-color: red;
+}
